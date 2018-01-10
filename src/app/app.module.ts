@@ -16,6 +16,7 @@ import { PortfolioItemComponent } from './components/portfolio-item/portfolio-it
 //Servicios
 import { InformacionService } from "./providers/informacion.service";
 import { ProductosService } from "./providers/productos.service";
+import { SearchComponent } from './components/search/search.component';
 
 
 
@@ -26,7 +27,8 @@ import { ProductosService } from "./providers/productos.service";
     FooterComponent,
     PortafolioComponent,
     AboutComponent,
-    PortfolioItemComponent
+    PortfolioItemComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
