@@ -41,7 +41,7 @@ export class ProductosService {
       }
     })
 
-    console.log(this.productos_filtrado);
+    //console.log(this.productos_filtrado);
 
 
   }
