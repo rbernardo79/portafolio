@@ -12,7 +12,7 @@ export class PortfolioItemComponent {
   producto:any = undefined;
   parametro:string = undefined;
 
-  constructor ( private _ar:ActivatedRoute, private _ps:ProductosService ) {
+  constructor ( public _ar:ActivatedRoute, public _ps:ProductosService ) {
 
     _ar.params.subscribe ( parametros => {
 
